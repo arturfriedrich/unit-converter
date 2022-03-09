@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    color: #FFFFFF;
+    background-color: #efefef;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+main {
+    width: 550px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.main-section {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(
+        45deg,
+        hsl(32deg 90% 52%) 0%,
+        hsl(19deg 86% 57%) 11%,
+        hsl(6deg 75% 59%) 22%,
+        hsl(352deg 61% 55%) 33%,
+        hsl(340deg 53% 47%) 44%,
+        hsl(328deg 50% 40%) 56%,
+        hsl(312deg 43% 34%) 67%,
+        hsl(285deg 37% 29%) 78%,
+        hsl(256deg 36% 26%) 89%,
+        hsl(226deg 51% 19%) 100%
+    );
+    border-radius: 10px 10px 0 0;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 38px;
+
+    letter-spacing: -0.05em;
+}
+
+.input-field {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 24px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+::placeholder {
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+
+.results {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 60%;
+    font-size: 14px;
+    border-radius: 0 0 10px 10px;
+}
+
+.measure {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0em;
+}
+
+.converted-values {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: .5em;
+    margin-bottom: 2em;
+
+    color: #D2D2D2;
+}
